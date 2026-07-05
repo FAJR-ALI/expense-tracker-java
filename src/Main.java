@@ -12,5 +12,8 @@ public class Main {
         manager.addExpenses(coffe);
 
         manager.showExpenses();
+
+        manager.deleteExpense(1);
+        manager.showExpenses();
     }
 }

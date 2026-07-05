@@ -18,4 +18,13 @@ public class ExpenseManager {
     }
    }
 
+   public void deleteExpense(int index){
+    
+    if (index >=0 && index < expenses.size()) {
+        expenses.remove(index);
+    }else{
+        System.out.println("Invaled expense number!");
+    }
+   }
+
 }
